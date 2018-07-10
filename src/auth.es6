@@ -1,5 +1,6 @@
 import base64url from "base64url";
 import axios from 'axios';
+import { handleResponse } from './utils'
 const crypto = require('crypto-browserify');
 import { JWT } from './config';
 
@@ -79,7 +80,7 @@ class Auth {
             this.token = response.data.access_token;
           }
           // return promise
-          return { isSuccess: this._handleResponse(response, success_callback, fail_callback), status: response.status, data: response.data }
+          return { isSuccess: handleResponse(response, success_callback, fail_callback), status: response.status, data: response.data }
         })
       .catch((err) => console.error('Error when geting access token from Google \n ----------------- \n', err))
   }
