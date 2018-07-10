@@ -8,9 +8,14 @@
     "base64url": "^3.0.0",
     "crypto-browserify": "^3.12.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
   "scripts": {
-    "test": "npm test"
+    "compile": "babel-cli -d lib/ src/",
+    "prepublish": "npm run compile",
+    "server": "node app.babel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zhe Xu",
   "license": "MIT"

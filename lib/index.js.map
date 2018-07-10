@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.es6"],"names":["API","auth1","auth"],"mappings":"AAAA,OAAOA,GAAP,MAAgB,WAAhB;AACA,OAAOC,KAAP,MAAkB,YAAlB;;AAEA,eAAeD,GAAf;AACA,OAAO,MAAME,OAAOD,KAAb","file":"index.js","sourcesContent":["import API from './src/api';\nimport auth1 from './src/auth';\n\nexport default API;\nexport const auth = auth1;"]}
