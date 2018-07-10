@@ -14,9 +14,6 @@
     "babel-preset-stage-1": "^6.24.1"
   },
   "scripts": {
-    "compile": "babel-cli -d lib/ src/",
-    "prepublish": "npm run compile",
-    "server": "node app.babel.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zhe Xu",
