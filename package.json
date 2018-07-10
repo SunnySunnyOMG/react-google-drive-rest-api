@@ -1,0 +1,17 @@
+{
+  "name": "react-google-drive-rest-api",
+  "version": "1.0.0",
+  "description": "a helper for service account auth and google drive restful api",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "base64url": "^3.0.0",
+    "crypto-browserify": "^3.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Zhe Xu",
+  "license": "MIT"
+}
