@@ -1,8 +1,8 @@
 
 import auth from '../auth';
 import axios from 'axios';
-import { handleResponse } from './utils.es6';
-import { API_DOMAIN } from '../config.es6';
+import { handleResponse } from './utils';
+import { API_DOMAIN } from '../config';
 /**
  * For easier way to call api 
  */

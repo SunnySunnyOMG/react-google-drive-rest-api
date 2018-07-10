@@ -1,4 +1,4 @@
-import {API_DOMAIN_UPLOAD} from './config.es6';
+import {API_DOMAIN_UPLOAD} from './config';
 import call from './utils/call';
 export default class GoogleDriveAPI {
 

@@ -1,7 +1,7 @@
 import base64url from "base64url";
 import axios from 'axios';
 const crypto = require('crypto-browserify');
-import { JWT } from './config.es6';
+import { JWT } from './config';
 
 class Auth {
   constructor() {
