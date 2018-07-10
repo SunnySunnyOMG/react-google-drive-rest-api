@@ -1,6 +1,6 @@
 import base64url from "base64url";
 import axios from 'axios';
-import { handleResponse } from './utils'
+import { handleResponse } from './utils/utils'
 const crypto = require('crypto-browserify');
 import { JWT } from './config';
 
