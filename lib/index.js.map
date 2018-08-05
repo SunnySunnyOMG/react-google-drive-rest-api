@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/index.es6"],"names":["API","auth","auth1"],"mappings":";;;;;;;AAAA;;;;AACA;;;;;;kBAEeA,a;AACR,IAAMC,sBAAOC,cAAb","file":"index.js","sourcesContent":["import API from './src/api';\nimport auth1 from './src/auth';\n\nexport default API;\nexport const auth = auth1;"]}
